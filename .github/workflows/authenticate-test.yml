@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Login via Azure CLI'
-        uses: azure/login@v1
+        uses: azure/davidsosa.co@outlook.com
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
       - name: Show Azure Account
